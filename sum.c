@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-int i,num,sum=0;
+int i,n,s=0;
 clrscr();
 printf("Enter the number:");
-scanf("%d",&num);
-for(i=1;i<=num;i++)
+scanf("%d",&n);
+for(i=0;i<=n;i++)
 {
-sum=sum+i;
+s=s+i;
 }
-printf("Sum is %d",sum);
+printf("Sum is %d",s);
 getch();
 }
